@@ -1,0 +1,229 @@
+
+
+body{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.main-header {
+
+
+}
+
+.logo{
+	background-color: #32618D;
+	text-align: center;
+	padding: 8px 0px;
+}
+
+.social{
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	font-size: 28px;
+	
+}
+
+.social a{
+	color: #8D9EBE;
+	text-decoration: none;
+	margin-right: 10px; 
+}
+
+.main-menu ul{
+	list-style: none;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding-right: 20px; 
+	padding-left: 10px;
+	border-right: 2px solid #8D9EBE;
+	
+}
+
+.main-menu{
+	text-align: center;
+	 	
+}
+
+.main-menu a{
+	text-decoration: none;
+	color: #1E3B71;
+	transition: all 0.15s ease-in;
+	font-weight: 700;
+}
+
+.main-menu a:hover {
+	color: #8DABC2;
+	border-bottom: 2px solid #8DABC2;
+	
+}
+
+.slider img{
+	width: 100%;
+}
+.slider{
+	margin-bottom: 5%;
+}
+
+.card-hero{
+	position: relative;
+	}
+
+.card-hero img{
+	width: 100%;
+}
+ 
+.card-title::after{
+	content:'';
+	background-color: green;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	height: 1px;
+	width: 60%;
+}
+
+.card{
+	border:1px solid gray; 
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+	width: 30%;
+}
+
+.btn-card-show{
+	background-color: #FFB606;
+	width: 100px;
+	height: 20px;
+	margin-top: -10px;
+	margin-left: -50px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: none
+}
+
+.btn-card-show:hover{
+	background-color: #e0a006;
+	transition-delay: .2s;
+}
+.card-hero:hover .btn-card-show{
+	display: block;
+}
+
+.title-section{
+	text-align: center;
+	font-size: 30px;
+}
+
+.title-oferta-academica{
+	color: #32618D
+}
+
+.oferta-academica{
+	width: 100%;
+
+}
+.card-list{
+	list-style: none;
+	padding: 5px;
+	display: block;
+	color: #999999;
+}
+
+.card-list{
+	text-align: center;	
+}
+
+.contact{
+	height: 100%
+	margin-top: 2%;
+}
+
+.container{
+	max-width: 1170px;
+	overflow: hidden;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact-form{
+	display: block;
+	margin-left: -10px;
+}
+
+
+.form-control{
+	width: 300px;
+	
+	padding: 2px;
+	border-radius: 2px;
+	font-size: 15px;
+	border: 1px solid #ccc;	
+	margin: 2% 0;
+}
+
+.btn-contact{
+	background-color: #8DABC2;
+	color: white;
+	padding: 3%;
+	border-radius: 2px;
+	border: 1px solid #8DABC2;
+	font-size: 15px;
+}
+
+
+.title-contact{
+	color: white;
+	background-color: #8DABC2;
+	padding:1%;
+	margin: 0;
+	
+	
+	
+}
+
+.img-contact{
+	margin:0;
+	overflow: hidden;
+}
+.img-contact img{
+	width: 100%;
+	height: 
+	margin: 0;
+	margin-right: 4%;
+}
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px 30px; 
+}
+
+.contact-form textarea{
+	height: 100%
+
+}
+
+.contact-form input[type="text"]{
+	display: block;
+}
+
+.footer{
+	background-color: #8DABC2;
+	color: white;
+	margin-top: 10px;
+	padding: 2px;
+	text-align: center;
+	font-size: 10px;
+	
+}
